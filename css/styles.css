@@ -1,0 +1,440 @@
+.lwrap{
+    max-width:1130px;
+}
+header .lwrap{
+    padding:0 10px;
+}
+.logo{
+    margin: 0px 175rem 0 0;
+    display: inline-block;
+}
+.top-header form{
+    margin: 4px 0 0 0;
+}
+header{
+    background:url("/images/pic-bg.png") no-repeat center center / cover;
+}
+h1{
+    color: white;
+    font-family: Montserrat;
+    font-size: 55rem;
+    font-weight: 700;   
+    margin: 235rem 0 27rem 0;
+}
+header .btn-scroll{
+    margin:215rem 0 12rem 0;
+}
+.hdr h2{
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 300; 
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+}
+.hdr hr{
+    width: 43px;
+    height: 2px; 
+}
+.hdr p{
+    font-family: Open Sans;
+    font-size: 16px;  
+    font-weight:300;
+    text-align: center;
+}
+.what_we_do .hdr hr{
+    background-color: #828181; 
+    margin: 8px 0 6px 2px;
+}
+.what_we_do .hdr h2{
+    color: #828181; 
+    letter-spacing: 0.13em;
+}
+.what_we_do .hdr p{
+    color: #b7b3b3; 
+    margin: 0 0 70rem 0;
+}
+.what_we_do .lwrap{
+    max-width:1130px;
+    padding:0 10px;
+}
+.what_we_do article p{
+    color: #828181;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 30px 25px 30px;
+    width:100%;
+}
+.what_we_do article h3{
+    color: #828181;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 21px 0 13px 0;
+}
+.gallery-articles{
+    padding:0 0 73px 0; 
+}
+.gallery-articles article{
+    width:31%;
+}
+.latest, .team{
+    background:#54d154;
+}
+.latest .hdr h2, .team .hdr h2{
+    color: #207b20;  
+}
+.latest .hdr p, .team .hdr p{
+    color: #2b9b2b;
+}
+.latest .hdr hr, .team .hdr hr{
+    background-color: #207b20;  
+}
+.latest .hdr h2, .what_we_do .hdr h2{
+    padding: 38px 0 0 0;  
+}
+.latest .hdr hr{
+    margin: 8px 0 6px 1px;
+}
+.latest .hdr p{
+    padding: 0 0 58px 0;
+}
+.gallery-works figure{
+    width:17.4%;
+    margin:0 0 29px 0;
+    border-radius: 3px;
+}
+.tabs .tabset{
+    width:100%;
+}
+.testimonials .hdr h2{
+    color: #828181; 
+    padding: 35px 0 0 0;
+}
+.testimonials .hdr p{
+    color: #b7b3b3;
+}
+.testimonials .lwrap{
+    max-width:780px;
+    padding:0 10px;
+}
+.testimonials .hdr hr{
+    background-color: #828181;  
+    margin: 8px 0 5px 2px;
+}
+.slider{
+    padding:65rem 0 61rem 0;
+}
+.slider input{
+    display: none;
+}
+.slider ul{
+    position: relative;
+    overflow: hidden;
+}
+.slider ul li:first-child{
+    visibility: hidden;
+    position: static;
+}
+.slider ul li:not(:first-child){
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+}
+.slider > ul > li{
+    opacity: 1;
+    transition: transform 2000ms;
+}
+.slider > ul > li.num1 {
+    left: 0%;
+}
+.slider > ul > li.num2 {
+    left: 100%;
+}
+.slider > ul > li.num3 {
+    left: 200%;
+}
+.slider > #rs1:checked ~ ul > li {
+    transform: translateX(0%);
+}
+.slider > #rs2:checked ~ ul > li {
+    transform: translateX(-100%);
+}
+.slider > #rs3:checked ~ ul > li {
+    transform: translateX(-200%);
+}
+.slider blockquote p{
+    color: #444;
+    font-weight: 400;
+    max-width:484px;
+    line-height:20px;
+    letter-spacing: 0.03em;
+    text-align:center;
+    padding:0 0 16px 0;
+}
+.slider cite{
+    color: #444;
+    font-weight: 400;  
+    font-style:normal;
+}
+.slider cite figure{
+    margin: -4px 6px 0 -12px;   
+}
+.slider blockquote .job{
+    color: #ccc;    
+}
+.slider .prev, .slider .next{
+    width:14px;
+    height:23px;
+    position: relative;
+}
+.slider .prev label, .slider .next label{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    z-index: -1;
+}
+.slider > #rs1:checked ~ .prev > .num2,
+.slider > #rs1:checked ~ .next > .num1, 
+.slider > #rs2:checked ~ .prev > .num0,
+.slider > #rs2:checked ~ .next > .num2, 
+.slider > #rs3:checked ~ .prev > .num1,
+.slider > #rs3:checked ~ .next > .num0 
+{
+    opacity: 1;
+    z-index: 5;
+}
+.clients{
+    background-color: #f2f1f1;
+}
+.clients .lwrap{
+    padding: 0 10px;
+    max-width:920px;
+}
+.clients .lwrap .hdr{
+    padding: 32px 0 41px 0;
+}
+.clients .hdr h2{
+    color: #828181;    
+}
+.clients .hdr p{
+    color: #b7b3b3;
+}
+.clients .hdr hr{
+    background-color: #828181;  
+}
+.clients-logos{
+    margin: 0 0 23px 0;   
+}
+.clients-logos a{
+    margin: 24rem;
+    display: inline-block;   
+}
+.btn-all{
+    margin: 5px 0 61px 0;
+    padding: 0 0px 0 13px;  
+}
+.tabs .tablist{
+    margin:0 0 58rem 0; 
+}
+.tabs .gallery-works{
+    padding: 0 0rem 27px 0rem;
+}
+.team figure{
+    position: relative;
+    padding:0 0 89px 0;
+}
+.team figure:after{
+    width: 2px;
+    height: 77px;
+    background-color: #207b20;  
+    content:"";
+    position: absolute;
+    bottom:2rem;
+    left:50%;
+}
+.team-name{
+    color: white;
+    margin: 6px 4px 9px 0;
+}
+.team .lwrap{
+    max-width: 840px; 
+    padding:0 10px;
+}
+.team .hdr h2{
+    padding: 32px 0 0 0;   
+}
+.team .hdr hr{
+    margin: 8px 0 4px 2px;
+}
+.team-gallery > div{
+    padding: 0 0 62rem 0;
+}
+.team-gallery{
+    margin: 50px 0 0 0;
+}
+.latest .lwrap{
+    padding: 0 10px 53px 10px;
+    max-width: 942px;
+}
+.work-with-us{
+    height: 92px;
+    background-color: #3eba3e;  
+}
+.work-with-us .btn{
+    box-shadow: -1.5px 4.8px 5px rgba(0, 0, 0, 0.1);
+    width: 175px;
+    height: 40px;
+    background-color: #54d154;
+    font-size:19px;
+}
+.footer{
+    background-color: #333;
+}
+.footer p{
+    color: #ccc; 
+}
+.footer .lwrap{
+    padding: 27px 10px 32px 10px;
+}
+footer .hdr{
+    margin: 0 0 10px 0;
+}
+.footer .lwrap > div:nth-of-type(1) .hdr{
+    margin: 0 0 18px 0;
+}
+.footer .lwrap > div:nth-of-type(2) .hdr{
+    margin: 0 0 15px 0;
+}
+footer .hdr h4{
+    color: #ddd;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.19em;
+    font-size:17px;
+}
+footer .hdr hr{
+    width: 30px;
+    height: 2px;
+    background-color: #ddd;
+    margin: 3px 0 3px 0;  
+}
+footer .footer > .lwrap > div{
+    width:29.1%;
+}
+footer .footer > .lwrap > div:first-of-type p{
+    text-align:center;
+    line-height: 19px;
+    padding: 0 6px 29px 6px;
+    width:100%;
+}
+.post-news{
+    color: #ccc;
+    font-family: Montserrat;
+    font-weight: 300; 
+    display: block;
+    margin: -11px 0 4px 0;
+}
+.footer .post{
+    padding: 0 0 11px 17px;
+}
+.footer .post figure{
+    margin: 0 7px 0 0;
+}
+.post-news:hover, .address-block > span > a:hover{
+    text-decoration: underline;
+}
+.address-block address{
+    text-align: center;
+    font-style: normal;
+}
+.address-block, .address-block > span > a{
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 300;   
+}
+.address-block, .address-block > span > span, .address-block, .address-block > span {
+    display: block;
+    text-align: center;
+}
+.address-block{
+    margin: 0 0 25px 0;
+}
+.footer form input:nth-of-type(1){
+    border-radius: 2px 2px 0 0;
+}
+.footer form input, .footer form textarea{
+    width:100%;
+    margin:0 0 1px 0;
+}
+.footer form .btn-send, .footer form button{
+    width:100%;
+}
+.footer form button{
+    margin: -3px 0 0 0;
+}
+.press{
+    background-color: #222; 
+}
+.press .lwrap{
+    max-width: 1040px;
+    padding: 2px 10px 10px 10px;
+}
+.links-media a{
+    margin: 19rem;
+    display: inline-flex;
+}
+.press .hdr{
+    margin: 20px 0 3px 14px;
+    letter-spacing: -0.05em;  
+}
+.press .hdr h4{
+    color: #101010;
+    font-family: Montserrat;
+    font-weight: 300;   
+}
+.press .hdr hr{
+    background-color: #101010;
+}
+.rights{
+    height: 35px;
+    background-color: #111;  
+}
+.rights span{
+    color: white;
+    margin:0 0 0 4px
+}
+.rights span i{
+    margin: 0 6px 0 6px;
+}
+figure img, .links-media a img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+@media(max-width:640px){
+    footer .footer > .lwrap > div{
+        width:48%;
+    }  
+    footer .footer > .lwrap > div:first-of-type{
+        width:100%;
+    }
+}
+@media(max-width:480px){
+    .logo {
+        margin: 10px 65rem 10px 0;
+    }
+    .btn-work {
+        width: 135px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .gallery-articles article{
+        margin:0 0 30px 0;
+    }
+    footer .footer > .lwrap > div{
+        margin:0 0 10px 0;
+    }
+}

@@ -1,0 +1,193 @@
+body{
+    font-size:16px;
+    font-family: ProximaNova;
+}
+.btn-default{
+    color: white;
+    font-weight: 400; 
+    background-color: #54d154;
+    border-radius: 20px;
+}
+.btn-work{
+    width: 208px;
+    height: 47px;
+    font-size:22px;
+    text-transform: uppercase;
+}
+.btn-learn{
+    width: 120px;
+    height: 30px;
+    background-color: #54d154;
+    font-size:16px;
+}
+.btn-view{
+    width: 186px;
+    height: 40px;
+    background-color: #2b9b2b;   
+    font-size:18px;
+}
+.btn-view em{
+    font-style:normal;
+    margin:0 7px 0 0;
+}
+.btn-send{
+    background-color: #2b9b2b;  
+    color: white;
+    font-size: 14px;
+    font-weight: 400; 
+    width:322px;
+    text-transform: uppercase;
+    height:32px;
+    border-radius: 0 0 3px 3px;
+}
+.btn-all{
+    width: 186px;
+    height: 40px;
+    background-color: #dddcdc;
+    border-radius: 20px;
+    color: #a59d9d;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-all em{
+    font-style:normal;
+    margin:0 20px 0 0;
+}
+.btn-scroll{
+    width: 120px;
+    height: 25px;
+    background:rgba(255, 255, 255, 0.7);  
+    border-radius:20px;
+}
+.btn-scroll em{
+    color: #111;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 300;
+    font-style:normal;
+    margin:0 10px 0 0;
+}
+.links-top a{
+    color: white;
+    margin: 0px 20.5rem 3rem 0px;
+    border-top: 5px solid transparent;
+    line-height: 23px;
+    display: inline-block;
+}
+.links-top a:last-child{
+    margin-right:0px;
+}
+.links-top a.active, .links-top a:active, .links-top a:hover, .links-top a:focus{
+    border-color: #54d154;
+}
+.links-top a.active{
+    font-weight: 700;
+}
+.links-social{
+    background-color: #e6e7e6;
+    border-radius:20px;
+    width:84px;
+}
+.links-social a{
+    padding:4px 3px 4px 3px;
+    display: flex;
+}
+.lbl-default{
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 3px;
+     padding: 1px 7px 1px 7px;
+}
+.lbl-magazine{
+    background-color: #54d154;
+}
+.lbl-ui{
+    background-color: #ffba00;  
+}
+.lbl-photo{
+    background-color: #089dea;  
+}
+.lbl-book{
+    background-color: #f34d04;
+}
+.lbl-works{
+    width: 142rem;
+    height: 142rem;
+    background-color: #e1f3e1;
+    border-radius: 30px;
+}
+.lbl-works i{
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.icon-settings, .icon-photo{
+    width:87rem;
+    height:74rem;
+}
+.icon-speed{
+    width:87rem;
+    height:68rem;
+}
+[name="form-search"]{
+    height: 27px;
+    border-radius:20px;
+    background:rgba(255, 255, 255, 0.8);
+    
+}
+[name="form-search"] input[type="search"]{
+    background-color:transparent;
+    border:none;
+    color: #111;
+    width: 155px;
+    padding: 0 0 0 12px;
+}
+.top-header form input[type="image"]{
+    margin: 0 9px 0 0;
+}
+[name="form-search"] input[type="search"]::-webkit-input-placeholder { color: #111; }
+[name="form-search"] input[type="search"]::-moz-placeholder { color: #111; }
+[name="form-search"] input[type="search"]:-ms-input-placeholder { color: #111; }
+
+input[name="input-default"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #777; }
+input[name="input-default"]::-moz-placeholder, textarea::-moz-placeholder { color: #777; }
+input[name="input-default"]:-ms-input-placeholder, textarea::-ms-input-placeholder { color: #777; }
+
+input[name="input-default"], textarea{
+    background-color: #444;
+    color:#fff;
+    border:none;
+}
+input[name="input-default"]{
+    height:32px;
+    padding:0 14px;
+}
+textarea{
+    height:131px;
+    padding:8px;
+    resize: none;
+}
+.tabs .tablist > a{
+    color: #2b9b2b;
+    height: 33px;
+    background-color: white;
+    padding:0 19px;
+    border:1px solid #2b9b2b;
+}
+.tabs .tablist > a:first-child{
+    border-radius: 20px 0 0 20px;
+    border-right:none;
+}
+.tabs .tablist > a:last-child{
+    border-radius:0 20px 20px 0;
+    border-left:none;
+}
+.tabs .tablist{
+    border-radius: 20px;
+}
+.tabs .tablist > a.active{
+    background-color: #2b9b2b;
+    color:#fff;  
+}
